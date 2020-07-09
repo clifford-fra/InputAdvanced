@@ -1,6 +1,6 @@
 # InputAdvanced Lightning Flow Component
 
-This component is a general input component, that allows you more customizations - especially in the layouts section - then the Salesforce standard components.
+This component is a general input component, that allows you more customizations - especially in the layouts section - than the Salesforce standard components.
 
 ## Input / Output variables
 
