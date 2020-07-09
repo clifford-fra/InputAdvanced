@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Input Advanced</masterLabel>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="value" label="Value" type="String"/>
+            <property name="masterLabel" label="Master Label" type="String"/>
+            <property name="width" label="Set Width in %" type="Integer"/>
+            <property name="required" label="Required" type="Boolean" default="false"/>
+            <property name="placeholder" label="Placeholder Text" type="String"/>
+            <property name="type" label="Input Type" type="String"/>
+            <property name="readonly" label="Read Only" type="Boolean" default="false"/>
+            <property name="disabled" label="Disabled" type="Boolean" default="false"/>
+            <property name="focused" label="Focused" type="Boolean" default="false"/>
+            <property name="pattern" label="Pattern" type="String"/>
+            <property name="help" label="Field-Level Help" type="String"/>
+            <property name="patternMismatch" label="Message Pattern Mismatch" type="String"/>
+            <property name="valueMissing" label="Message Value Missing" type="String"/>
+            <property name="requiredMessage" label="Message Required" type="String"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
